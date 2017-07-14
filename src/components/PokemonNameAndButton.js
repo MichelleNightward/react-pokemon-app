@@ -1,4 +1,5 @@
 import React from "react";
+import './PokemonNameAndButton.css'
 
 export const PokemonNameAndButton = (props) => {
     let nameElement = null;
@@ -7,10 +8,10 @@ export const PokemonNameAndButton = (props) => {
     }
     return (
         <div className="PokemonNameAndButton">
-            {nameElement}
             <button onClick={props.onClick}>
-                Click Me!
+                Roll the dice.
             </button>
+            {nameElement}
         </div>
     );
 };

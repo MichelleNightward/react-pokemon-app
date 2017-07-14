@@ -1,4 +1,5 @@
 .PokemonSprite {
+    position: relative;
     background-color: #ee1515;
     height: 150px;
     padding: 20px;
@@ -8,6 +9,12 @@
 
 .pokemon-sprite {
     animation: pokemon-sprite-spin infinite 20s linear;
+}
+
+.pokemon-sprite-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @keyframes pokemon-sprite-spin {

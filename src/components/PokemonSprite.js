@@ -9,7 +9,7 @@ export const PokemonSprite = (props) => {
     return (
         <div className="PokemonSprite">
             {imageElement}
-            <h2>Find your Poke-Buddy</h2>
+            <h2 className="pokemon-sprite-text">Find your Poke-Buddy</h2>
         </div>
     );
 };
