@@ -9,7 +9,7 @@ export const PokemonNameAndButton = (props) => {
     return (
         <div className="PokemonNameAndButton">
             <button onClick={props.onClick}>
-                Roll the dice.
+                Roll the dice
             </button>
             {nameElement}
         </div>

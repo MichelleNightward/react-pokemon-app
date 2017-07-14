@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Pokemon from '../components/PokemonNameAndButton';
+import PokemonSprite from '../components/PokemonSprite';
 
-describe("Pokemon component -> ", () => {
+describe("PokemonSprite component -> ", () => {
     it('renders without crashing', () => {
         const div = document.createElement('div');
-        ReactDOM.render(<Pokemon />, div);
+        ReactDOM.render(<PokemonSprite />, div);
     });
 });
